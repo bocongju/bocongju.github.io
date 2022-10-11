@@ -1,0 +1,65 @@
+/* page two */
+/* seemore */
+.seemore{
+    padding-top: 100px;
+    background-color: rgba(243, 239, 239, 0.5);
+}
+.seemore .title{
+    padding-bottom: 100px;
+}
+.seemore .title h1{
+    font-weight: 700;
+    font-size: 40px;
+}
+.seemore .btn{
+    position: absolute;
+    right: 0;
+    bottom: 30px;
+}
+.seemore .btn:hover a{
+    color: #F79489;
+    transition: color 0.3s;
+}
+/* slick */
+.slick{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.list_arrows{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+}
+.slick-arrow{
+    display: block;
+    border-radius: 50%;
+    border: 2px solid #222;
+    position: absolute;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+    width: 70px;
+    height: 70px;
+    opacity: 0.5;
+    transition: all 0.3s;
+}
+.slick-arrow:hover{
+    background-color: #000;
+}
+.slick-arrow:hover i{
+    color: rgb(243, 235, 235);
+}
+.slick-arrow i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.slick-arrow.right-arrow{
+    left: -30px;
+}
+.slick-arrow.left-arrow{
+    right: -30px;
+    
+}

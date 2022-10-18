@@ -298,6 +298,7 @@ img{
 	color: #686C71;
 	margin-top: 32px;
 	font-size: 16px;
+	width: 400px;
 }
 .exp-skill{
 	display: flex;
@@ -322,6 +323,12 @@ img{
 @media screen and (max-width:960px){
 	.exp-skill{
 		padding-top: 50px;
+	}
+	.exp .exp-info{
+		padding-left: 50px;
+	}
+	.exp .exp-info .exp-item{
+		width: 460px;
 	}
 }
 /* project */
@@ -350,7 +357,7 @@ img{
 }
 .project .project-item img{
 	width: 400px;
-	margin-left: 35px;
+	height: 400px;
 }
 
 .project .project-item p{

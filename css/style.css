@@ -52,7 +52,7 @@ a{
 		width: 800px;
 	}
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 960px){
 	.container{
 		width: 500px;
 	}
@@ -84,7 +84,7 @@ a{
 .col-lg-12{
 	width: 100%;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 960px){
 	.col-md-3{
 		width: 25%;
 	}
@@ -258,7 +258,7 @@ img{
 	padding-right: 16px;
 	color: #686C71;
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:960px) {
 	.about{
 		padding-bottom: 100px;
 	}
@@ -319,7 +319,7 @@ img{
 	margin-top: 8px;
 	color: #999999;
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:960px){
 	.exp-skill{
 		padding-top: 50px;
 	}
@@ -382,7 +382,7 @@ img{
 	background: #000;
 	color: #ccc;
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:960px) {
 	.project .project-item p{
 		margin-left: 0;
 		height: 200px;

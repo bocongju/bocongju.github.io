@@ -42,17 +42,27 @@ a{
 \* -------------------------- */
 /* grid system */
 .container{
-	width: 1024px;
+	width: 1200px;
 	margin: 0 auto;
 	padding-left: 16px;
 	padding-right: 16px;
 }
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1200px){
+	.container{
+		width: 1000px;
+	}
+}
+@media screen and (max-width: 992px){
 	.container{
 		width: 800px;
 	}
 }
-@media screen and (max-width: 960px){
+@media screen and (max-width: 768px){
+	.container{
+		width: 600px;
+	}
+}
+@media screen and (max-width: 576px){
 	.container{
 		width: 400px;
 		padding-left: 8px;
@@ -215,6 +225,7 @@ img{
 }
 /* about*/
 .about{
+	padding-top: 150px;
 	width: 100%;
 	margin: 0 auto 0 auto;
 	padding-bottom: 200px;
@@ -275,12 +286,27 @@ img{
 		margin-top: 50px;
 	}
 	.about-preview p{
+		left: 250px;
+		width: 300px;
 		font-size: 20px;
 		line-height: 32px;
 		margin-bottom: 40px;
 	}
 }
-
+@media screen and (max-width:768px) {
+	.about-preview p{
+		left: 100px;
+	}
+	.about-contents .contact{
+		left: 20%;
+		text-align: left;
+	}
+}
+@media screen and (max-width:576px) {
+	.about-preview p{
+		left: 50px;
+	}
+}
 /*  experience */
 .exp{
 	
@@ -323,14 +349,26 @@ img{
 	color: #999999;
 }
 @media screen and (max-width:960px){
+	.exp .exp-info .exp-item{
+		margin-left: 100px;
+		margin-top: 0;
+		width: 400px;
+	}
 	.exp-skill{
 		padding-top: 50px;
+		padding-left: 75px;
 	}
 	.exp .exp-info{
 		padding-left: 50px;
 	}
+}
+@media screen and (max-width:576px){
 	.exp .exp-info .exp-item{
-		width: 460px;
+		margin-left: 0;
+		width: 300px;
+	}
+	.exp-skill{
+		padding-left: 0;
 	}
 }
 /* project */
@@ -360,6 +398,8 @@ img{
 .project .project-item img{
 	width: 400px;
 	height: 400px;
+	vertical-align: top;
+	margin: auto;
 }
 
 .project .project-item p{
@@ -391,14 +431,16 @@ img{
 	background: #000;
 	color: #ccc;
 }
-@media screen and (max-width:960px) {
+@media screen and (max-width:992px) {
 	.project .project-item p{
-		margin-left: 0;
-		height: 200px;
+		margin-top: 40px;
+		margin-left: 50px;
+		width: 250px;
+		height: 300px;
 	}
 	.project .project-item img{
 		width: 300px;
-		margin-left: 0;
+		height: 300px;
 	}
 	.project .project-item .btn{
 		position: absolute;
@@ -406,7 +448,33 @@ img{
 		left: 50%;
 		transform: translatex(-50%);
 	}
-	.project .project-inner{
+}
+@media screen and (max-width:960px) {
+	.project .project-item p{
+		margin-left: 150px;
+	}
+	.project .project-item img{
+		width: 400px;
+		height: 400px;
+	}
+}
+@media screen and (max-width:768px) {
+	.project .project-item p{
+		margin-left: 75px;
+	}
+}
+@media screen and (max-width:576px) {
+	.project .project-item p{
+		width: 200px;
+		margin-left: 0;
+	}
+	.project .project-item img{
+		width: 200px;
+		height: 200px;
+	}
+	.project .project-item .btn{
+		width: 150px;
+		text-align: center;
 		
 	}
 }

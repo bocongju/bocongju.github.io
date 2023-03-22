@@ -326,18 +326,19 @@ img{
 	color: #686C71;
 	margin-top: 32px;
 	font-size: 16px;
-	width: 400px;
+	width: 500px;
+	line-height: 2;
 }
 .exp-skill{
 	display: flex;
 }
 .exp .skill{
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 150px;
 	margin-left: 50px;
 }
 .exp .skill .icon{
-	font-size: 36px;
+	font-size: 75px;
 }
 .exp .skill h3{
 	margin-top: 16px;
@@ -348,11 +349,19 @@ img{
 	margin-top: 8px;
 	color: #999999;
 }
+.exp .skill-info{
+	top: 50px;
+	margin-left: 50px;
+	margin-right: 100px;
+	color: #686C71;
+	font-size: 16px;
+}
 @media screen and (max-width:960px){
 	.exp .exp-info .exp-item{
 		margin-left: 100px;
 		margin-top: 0;
 		width: 400px;
+		
 	}
 	.exp-skill{
 		padding-top: 50px;
@@ -369,6 +378,9 @@ img{
 	}
 	.exp-skill{
 		padding-left: 0;
+	}
+	.exp .skill-info{
+		display: none;;
 	}
 }
 /* project */
@@ -407,13 +419,13 @@ img{
 	margin-left: 50px;
 	font-size: 20px;
 	font-weight: 400;
-	width: 300px;
+	width: 400px;
 	height: 450px;
+	line-height: 1.5;
 }
 .project .project-item .btn{
 	display: inline-block;
-    vertical-align: center;
-
+	margin-top: 50px;
 	font-weight: 600;
     font-size: 20px;
     line-height: 24px;
@@ -443,10 +455,9 @@ img{
 		height: 300px;
 	}
 	.project .project-item .btn{
-		position: absolute;
-		top: 70%;
-		left: 50%;
-		transform: translatex(-50%);
+		
+		margin-left: 165px;;
+		
 	}
 }
 @media screen and (max-width:960px) {
@@ -475,7 +486,6 @@ img{
 	.project .project-item .btn{
 		width: 150px;
 		text-align: center;
-		
 	}
 }
 /* silder plugin setting*/
